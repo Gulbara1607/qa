@@ -1,0 +1,303 @@
+{
+	"info": {
+		"_postman_id": "4a9d5858-9a47-4ed2-abcf-f3835fcb5402",
+		"name": "hw",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47503224",
+		"_collection_link": "https://gulbara16-1643965.postman.co/workspace/Gulbara's-Workspace~1df0ccfa-91d2-46c8-8aa8-c3526016b532/collection/47503224-4a9d5858-9a47-4ed2-abcf-f3835fcb5402?action=share&source=collection_link&creator=47503224"
+	},
+	"item": [
+		{
+			"name": "request_login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\": \"998971871607\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gw.alifshop.uz/web/client/auth/request-login",
+					"protocol": "https",
+					"host": [
+						"gw",
+						"alifshop",
+						"uz"
+					],
+					"path": [
+						"web",
+						"client",
+						"auth",
+						"request-login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"\",\"otp\":\"4652\",\"phone\":\"998971871607\",\"remember_me\":true}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gw.alifshop.uz/web/client/auth/login",
+					"protocol": "https",
+					"host": [
+						"gw",
+						"alifshop",
+						"uz"
+					],
+					"path": [
+						"web",
+						"client",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vc2VydmljZS1jb3JlLmFsaWZuYXNpeWEuaW50ZXJuYWwvZ2F0ZXdheS9hbGlmc2hvcC9hdXRoL2xvZ2luIiwic3ViIjoiNDQyNzAxNiIsImp0aSI6IjFjZDVlZGRjLThlNzgtNDlmMy1iYmRkLTgzMDM2ZWZhOWQxZCIsImlhdCI6MTc1NTQzODExNC4zOTMyNDgsIm5iZiI6MTc1NTQzODExNC4zOTMyNDgsImV4cCI6MTkxMDk1ODExNC4zOTMyNDh9.WYCvm5WPFguhFTwH-FcC6XXSwZOQAsw6Oy5Sj_Dd1uU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gw.alifshop.uz/web/client/moderated-offers/smartfon-infinix-hot-60-pro-8-256-gb-sleek-black-1753880610",
+					"protocol": "https",
+					"host": [
+						"gw",
+						"alifshop",
+						"uz"
+					],
+					"path": [
+						"web",
+						"client",
+						"moderated-offers",
+						"smartfon-infinix-hot-60-pro-8-256-gb-sleek-black-1753880610"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get product 2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vc2VydmljZS1jb3JlLmFsaWZuYXNpeWEuaW50ZXJuYWwvZ2F0ZXdheS9hbGlmc2hvcC9hdXRoL2xvZ2luIiwic3ViIjoiNDQyNzAxNiIsImp0aSI6IjFjZDVlZGRjLThlNzgtNDlmMy1iYmRkLTgzMDM2ZWZhOWQxZCIsImlhdCI6MTc1NTQzODExNC4zOTMyNDgsIm5iZiI6MTc1NTQzODExNC4zOTMyNDgsImV4cCI6MTkxMDk1ODExNC4zOTMyNDh9.WYCvm5WPFguhFTwH-FcC6XXSwZOQAsw6Oy5Sj_Dd1uU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gw.alifshop.uz/web/client/moderated-offers/smartfon-apple-iphone-16-pro-max-256-gb-nanosim-esim-desert-titanium-1749457670",
+					"protocol": "https",
+					"host": [
+						"gw",
+						"alifshop",
+						"uz"
+					],
+					"path": [
+						"web",
+						"client",
+						"moderated-offers",
+						"smartfon-apple-iphone-16-pro-max-256-gb-nanosim-esim-desert-titanium-1749457670"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add to basket",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vc2VydmljZS1jb3JlLmFsaWZuYXNpeWEuaW50ZXJuYWwvZ2F0ZXdheS9hbGlmc2hvcC9hdXRoL2xvZ2luIiwic3ViIjoiNDQyNzAxNiIsImp0aSI6IjFjZDVlZGRjLThlNzgtNDlmMy1iYmRkLTgzMDM2ZWZhOWQxZCIsImlhdCI6MTc1NTQzODExNC4zOTMyNDgsIm5iZiI6MTc1NTQzODExNC4zOTMyNDgsImV4cCI6MTkxMDk1ODExNC4zOTMyNDh9.WYCvm5WPFguhFTwH-FcC6XXSwZOQAsw6Oy5Sj_Dd1uU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"moderated_offer_id\":\"ad08d811-e10b-466b-a96a-0708d9c6fe43\",\"condition_id\":40268,\"quantity\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gw.alifshop.uz/web/client/cart/authenticated/moderated-items",
+					"protocol": "https",
+					"host": [
+						"gw",
+						"alifshop",
+						"uz"
+					],
+					"path": [
+						"web",
+						"client",
+						"cart",
+						"authenticated",
+						"moderated-items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view basket",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vc2VydmljZS1jb3JlLmFsaWZuYXNpeWEuaW50ZXJuYWwvZ2F0ZXdheS9hbGlmc2hvcC9hdXRoL2xvZ2luIiwic3ViIjoiNDQyNzAxNiIsImp0aSI6IjFjZDVlZGRjLThlNzgtNDlmMy1iYmRkLTgzMDM2ZWZhOWQxZCIsImlhdCI6MTc1NTQzODExNC4zOTMyNDgsIm5iZiI6MTc1NTQzODExNC4zOTMyNDgsImV4cCI6MTkxMDk1ODExNC4zOTMyNDh9.WYCvm5WPFguhFTwH-FcC6XXSwZOQAsw6Oy5Sj_Dd1uU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gw.alifshop.uz/web/client/cart/view-cart",
+					"protocol": "https",
+					"host": [
+						"gw",
+						"alifshop",
+						"uz"
+					],
+					"path": [
+						"web",
+						"client",
+						"cart",
+						"view-cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add to wishlist",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vc2VydmljZS1jb3JlLmFsaWZuYXNpeWEuaW50ZXJuYWwvZ2F0ZXdheS9hbGlmc2hvcC9hdXRoL2xvZ2luIiwic3ViIjoiNDQyNzAxNiIsImp0aSI6IjFjZDVlZGRjLThlNzgtNDlmMy1iYmRkLTgzMDM2ZWZhOWQxZCIsImlhdCI6MTc1NTQzODExNC4zOTMyNDgsIm5iZiI6MTc1NTQzODExNC4zOTMyNDgsImV4cCI6MTkxMDk1ODExNC4zOTMyNDh9.WYCvm5WPFguhFTwH-FcC6XXSwZOQAsw6Oy5Sj_Dd1uU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"moderated_offer_id\":\"7228b3c2-1a1e-426d-ab98-386435e48858\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gw.alifshop.uz/web/client/wishlists/moderated-offers",
+					"protocol": "https",
+					"host": [
+						"gw",
+						"alifshop",
+						"uz"
+					],
+					"path": [
+						"web",
+						"client",
+						"wishlists",
+						"moderated-offers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get wishlist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vc2VydmljZS1jb3JlLmFsaWZuYXNpeWEuaW50ZXJuYWwvZ2F0ZXdheS9hbGlmc2hvcC9hdXRoL2xvZ2luIiwic3ViIjoiNDQyNzAxNiIsImp0aSI6IjFjZDVlZGRjLThlNzgtNDlmMy1iYmRkLTgzMDM2ZWZhOWQxZCIsImlhdCI6MTc1NTQzODExNC4zOTMyNDgsIm5iZiI6MTc1NTQzODExNC4zOTMyNDgsImV4cCI6MTkxMDk1ODExNC4zOTMyNDh9.WYCvm5WPFguhFTwH-FcC6XXSwZOQAsw6Oy5Sj_Dd1uU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://gw.alifshop.uz/web/client/wishlists",
+					"protocol": "https",
+					"host": [
+						"gw",
+						"alifshop",
+						"uz"
+					],
+					"path": [
+						"web",
+						"client",
+						"wishlists"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
