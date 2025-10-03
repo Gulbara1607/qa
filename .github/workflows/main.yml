@@ -28,4 +28,4 @@ jobs:
           pip install -r requirements.txt  # Install dependencies from requirements.txt
           
     - name: Run tests
-      run: pytest tests/test_main_page1.py -v -s --alluredir allure-results
+      run: python -m pytest -s -v ./tests/test_main_page1.py --alluredir allure-results
